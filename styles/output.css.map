@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["main.scss","_variables.scss","_color.scss","_mixins.scss"],"names":[],"mappings":"AAKA;EACI,aCLS;EDMT,WCLa;EDMb,kBELe;EFMf,OELS;;;AFQb;EACI;EACA,eCXY;EDYZ;EACA;EACA;;AAEA;EACI;EACA,OEpBQ;EFqBR;;AAGJ;EACI;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA,OElCM;;AFqCV;EGnCJ,kBDHY;ECIZ,OHmCqD;EGlCrD;EACA,eFJY;EEKZ;EACA;EACA","file":"output.css"}

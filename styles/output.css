@@ -1,0 +1,42 @@
+body {
+  font-family: "Helvetica, Arial, sans-serif";
+  font-size: 16px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+.card .card-title {
+  font-size: 1.5em;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+.card .card-description {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+.card .card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-footer .price {
+  font-weight: bold;
+  color: #2ecc71;
+}
+.card .card-footer .buy-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/*# sourceMappingURL=output.css.map */

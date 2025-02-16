@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "sass": "^1.85.0"
+  },
+  "name": "TestApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass styles/main.scss styles/output.css"
+  }
+}

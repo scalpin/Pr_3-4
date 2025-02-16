@@ -1,0 +1,12 @@
+@use 'variables';
+@use 'color';
+// Миксин для создания кнопок
+@mixin button($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: none;
+    border-radius: variables.$border-radius;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

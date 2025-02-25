@@ -1,12 +1,9 @@
 @use 'variables';
-@use 'color';
-// Миксин для создания кнопок
-@mixin button($bg-color, $text-color) {
-    background-color: $bg-color;
-    color: $text-color;
-    border: none;
-    border-radius: variables.$border-radius;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+@use 'sass:color';
+
+@mixin button-hover {
+    &:hover {
+        background-color: color.adjust(variables.$primary-color, $lightness: -10%);
+        color: rgb(225, 225, 225);
+    }
 }

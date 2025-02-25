@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 50px !important;
+}
+
+h2 {
+  color: #fb0000 !important;
+}
+
+.content-box {
+  padding: 20px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  background-color: #fb0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.custom-button:hover {
+  background-color: #c80000;
+  color: rgb(225, 225, 225);
+}
+
+/*# sourceMappingURL=main.css.map */
